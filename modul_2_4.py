@@ -24,3 +24,19 @@ for i in numbers:  # запускаем цикл перебора значени
             primes.append(i)  # команда добавления числа i из списка numbers в список primes натур числа.
 print('Primes:', primes)
 print('Not Primes:', not_primes)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
