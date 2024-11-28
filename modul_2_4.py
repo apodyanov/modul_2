@@ -23,4 +23,4 @@ for i in numbers:  # запускаем цикл перебора значени
             # i = is_prime = True и добавляется в список primes натур числа.
             primes.append(i)  # команда добавления числа i из списка numbers в список primes натур числа.
 print('Primes:', primes)
-print('Not Primes:', not_primes)
+print('Not Primes: ', not_primes)
