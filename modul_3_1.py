@@ -18,7 +18,8 @@ def is_contains(string, list_to_search):
     count_calls()
     string = string.lower()
     for item in list_to_search:
-        if string == item.lower():
+        item.lower()
+        if string in [item.lower() for item in list_to_search]:
             return True
         else:
             return False
@@ -28,7 +29,7 @@ func1 = string_info('ARMAGEDON')
 func2 = string_info('MoscowNeverSleep')
 func3 = string_info('MoscowNeverSleepWithOutYou')
 func4 = is_contains('ARMAGEDON', ['Moscow', 'Never', 'Sleep'])
-func5 = is_contains('MOSCOW', ['Moscow', 'Never', 'Sleep'])
+func5 = is_contains('MOSCOW', ['Never', 'Sleep', 'Moscow'])
 
 
 print(func1)
