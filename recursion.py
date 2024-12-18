@@ -1,30 +1,3 @@
-# РЕКУРСИЯ
-#from inspect import stack
-
-# def summa(n):
-#     if n == 0:
-#         return 0
-#     else:
-#         return n + summa(n - 1)
-#
-# print(summa(5))
-
-# stack = []
-# stack.append(1)
-# print('Добавили элемент', stack)
-# stack.append(2)
-# print('Добавили элемент', stack)
-# stack.append(3)
-# print('Добавили элемент', stack)
-# print(stack)
-# print()
-# stack.pop()
-# print('Убрали элемент', stack)
-# stack.pop()
-# print('Убрали элемент', stack)
-# stack.pop()
-# print('Убрали элемент', stack)
-# print(stack)
 # Задача "Рекурсивное умножение цифр"
 
 def get_multiplied_digits(number):
@@ -45,4 +18,3 @@ print(result)
 result2 = get_multiplied_digits(402030)
 print(result2)
 # консоль 0
-
