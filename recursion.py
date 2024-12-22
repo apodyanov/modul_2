@@ -1,11 +1,12 @@
 # Задача "Рекурсивное умножение цифр"
 
 def get_multiplied_digits(number):
+
     str_number = str(number)
     first = int(str_number[0])
-    #n = 0
-    if len(str_number) > 1: #and str_number.endswith(str(n)):
-        #list(str_number).pop() здесь пытаюсь избавиться от возможного нуля в конце числа, так как в задаче оба ответа = 24, но не получается...
+    while str_number.endswith('0'):
+        str_number = str_number[:len(str_number)-1]
+    if len(str_number) > 1:
         return first * get_multiplied_digits(int(str_number[1:]))
     else:
         return first
