@@ -1,5 +1,4 @@
 # Задача "А как делить?"
-
 from true_math import divide as divt
 from fake_math import divide as divf
 
